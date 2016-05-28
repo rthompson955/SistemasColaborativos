@@ -21,19 +21,22 @@ namespace Logica.Negocio
                     elResultado = laReferencia.Operar(operandoUno, operandoDos);
                     break;
 
-/*
+
                 case "-":
+                    var Resta = new Resta();
                     elResultado = Resta.Operar(operandoUno, operandoDos);
                     break;
 
                 case "*":
+                    var Multiplicacion = new Multiplicacion();
                     elResultado = Multiplicacion.Operar(operandoUno, operandoDos);
                     break;
 
                 case "/":
+                    var Division = new Division();
                     elResultado = Division.Operar(operandoUno, operandoDos);
                     break;
-*/
+
             }
             return (elResultado);
         }
